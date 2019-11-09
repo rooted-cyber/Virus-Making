@@ -2,6 +2,7 @@ clear
 apt update
 apt upgrade
 apt install figlet
+apt install wget
 apt install toilet
 clear
 termux-setup-storage
@@ -18,6 +19,7 @@ unzip com.zip
 cd ~/Virus-Making
 cp -f virus $PREFIX/bin
 chmod 777 $PREFIX/bin/virus
-rm -Rf *
+cd $HOME
+rm -Rf Virus-Making
 clear
 echo "You can start this command :- virus"
