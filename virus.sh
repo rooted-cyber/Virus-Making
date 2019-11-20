@@ -504,7 +504,7 @@ cd $HOME
 rm -rf Virus-Making
 git clone https://github.com/rooted-cyber/Virus-Making
 cd Virus-Making
-bash setup.sh
+bash virus.sh
 fi
 }
 setup() {

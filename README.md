@@ -9,7 +9,7 @@ $ apt install toilet
 $ apt install git
 $ git clone https://github.com/rooted-cyber/Virus-Making
 $ cd Virus-Making
-$ bash setup.sh</pre>
+$ bash virus.sh</pre>
 
 # usages
 <pre> Type Anywhere
