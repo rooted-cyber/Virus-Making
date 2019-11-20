@@ -535,7 +535,7 @@ clear
 echo -e "\033[93m You can start this command :- virus"
 
 }
-echo -e -n "\033[92m Starting Setup\033[91m (\033[96Y/N\033[91m) "
+echo -e -n "\033[92m Starting Setup\033[91m (\033[96mY/N\033[91m) "
 read v
 case $v in
 y|Y)setup ;;
